@@ -1,8 +1,10 @@
 # vmware-snapshot-report
 Connects to VMware vCenter and Reports on Current Snapshots
 
-## PRE-REQ: 
+## PRE-REQ:
+```
 Install-Module VMware.PowerCLI -Scope CurrentUser
+```
 
 ## USAGE WITH ARGUMENTS:
 ```
