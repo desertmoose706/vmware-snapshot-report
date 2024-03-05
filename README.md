@@ -1,12 +1,12 @@
 # vmware-snapshot-report
 Connects to VMware vCenter and Reports on Current Snapshots
 
-## PRE-REQ:
+## Prerequisites:
 ```
 Install-Module VMware.PowerCLI -Scope CurrentUser
 ```
 
-## USAGE WITH ARGUMENTS:
+## Usage with Command Arguments:
 ```
 ./getSnapshots.ps1 -emailfrom 'email@email.com' -emailto 'email@email.com' -vcserver 'myvcenter.e.com' -vcuser 'my@user.com' -vcpassword 'PaSSWoRD'
 ```
